@@ -1,0 +1,14 @@
+.entry-page{
+    height: 100vh;
+    display: flex; 
+     align-items: center; 
+     justify-content: center;
+
+}
+
+.form-box{
+    background-color: white;
+    height: 50%;
+    width: 30%;
+
+}
