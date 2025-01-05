@@ -3,6 +3,7 @@ import { SearchForm } from "../../components/search-form/SearchForm.Comp"
 import { useEffect, useState } from "react"
 import tickets from "../../assests/data/dummy-tickets.json";
 import { TicketTable } from "../../components/ticket-tabel/TicketTable.comp";
+import { PageBreadCrumb } from "../../components/breadcrumb/Breadcrumb.comp";
 
 export const TicketList= () =>{
 
@@ -33,6 +34,11 @@ export const TicketList= () =>{
 
     return(
  <Container className="mt-4">
+    <Row>
+        <Col>
+        <PageBreadCrumb page ="Ticket"/>
+        </Col>
+    </Row>
     <Row>
         <Col>
         <Button variant="info">Add New Tickets</Button>
